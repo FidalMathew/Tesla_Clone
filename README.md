@@ -16,15 +16,7 @@ Questions can be asked by raising an `Issue`.
 
 - Using Git on your local machine. Do this to download the forked copy of this repo to your computer.
 
-```
-  git clone https://github.com/yourGithubUsername/hacktoberfest-practice.git
-```
-
-- switch to the cloned folder. This can be done with Gitbash or the integrated terminal in the VSCode editor.
-
-```
-  cd hacktoberfest-practice
-```
+After cloning-
 
 - Make a new branch. Your name would make a good branch because it's unique.
 
@@ -32,20 +24,6 @@ Questions can be asked by raising an `Issue`.
   git checkout -b <name of new branch>
 ```
 
-- Open the `README.md` file
-
-- #### Add your name to the section ([Hactoberfest community](https://github.com/EddieHubCommunity/hacktoberfest-practice#hacktoberfest-community)) that is headed with your first initial. Then, add your name in alphabetical order of the second letter in your name. If the second letters are the same, order it in alphabetical order of the third, and so on. Next to it, add the link to your github username page.
-
-- For example ,
-  `- [Full Name](https://github.com/your-username)`
-
-- Stage your changes.
-
-```
-  git add README.md
-```
-
-or
 
 ```
   git add .
@@ -54,7 +32,7 @@ or
 - Commit the changes.
 
 ```
-  git commit -m "Add <your-github-username>"
+  git commit -m "<changes made>"
 ```
 
 - Check the status of your repository.
