@@ -79,7 +79,6 @@
                 break;
 
             }
-            // console.log(navevent);
             var trackerWidth = elementWidth;
             $('#hover-tracker').css('width', trackerWidth + 'px'); 
         
