@@ -33,6 +33,15 @@
     position: relative;
 }
 
+#hover-event{
+    width: 68%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 25px;
+    top: 0px;
+}
+
 
 .nav-center ul {
     display: flex;
@@ -58,13 +67,13 @@
     padding-bottom: 6px;
     padding-top: 6px;
     border-radius: 12px;
-    transition: 0.5s;
+    transition: 0.9s;
 }
 
-.nav-center ul li a:hover{
+/* .nav-center ul li a:hover{
     background-color: rgba(117, 117, 121, 0.253);
    
-}
+} */
 
 
 
@@ -95,14 +104,26 @@
 }
 
 
-.nav-right ul li a:hover{
+/* .nav-right ul li a:hover{
     background-color: rgba(117, 117, 121, 0.253);
+} */
+
+
+
+
+
+#hover-tracker {
+    display: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: 0.55s ease-in-out;
+    background-color: rgba(117, 117, 121, 0.253);
+    font-size: 15px;
+    bottom: -3px;
+    margin-left: 0px;
+    border-radius: 12px;
+    position: absolute;
 }
-
-
-
-
-
 
 
 
