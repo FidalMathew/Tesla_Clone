@@ -132,24 +132,24 @@
 .model-S{
     width: 100%;
     position: relative;
-    
     box-sizing: border-box;
     height: 100vh;
     color: rgb(34, 34, 34);
     overflow-y: hidden;
+    background: url('../img/model\ S.jpg') center center/cover no-repeat ;
 }
 
 
 .model-S h2 {
     position: absolute;
-    top: 145px;
+    top: 105px;
     font-size: 42px;
     left: 696px;   
 }
 
 .model-S p {
     position: absolute;
-    top: 200px;
+    top: 160px;
     font-size: 16px;
     left: 653px;
 }
@@ -165,16 +165,33 @@
 
 .model-3{
     width: 100%;
-    
+    position: relative;
     box-sizing: border-box;
     height: 100vh;
     
     overflow-y: hidden;
+    background: url('../img/model\ 3.jpg') center center/cover no-repeat ;
+
 
 }
-.model-3 img{
-    width: 100%;
-    overflow-y: hidden;
+
+
+.model-3 h2 {
+    position: absolute;
+    top: 85px;
+    font-size: 42px;
+    left: 696px;   
+}
+
+.model-3 p {
+    position: absolute;
+    top: 160px;
+    font-size: 16px;
+    left: 653px;
+    
+}
+.model-3 p a{
+    color: #fff;
 }
 
 
