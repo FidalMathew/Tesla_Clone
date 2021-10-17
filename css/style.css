@@ -16,14 +16,10 @@
     top: 0px;
     position:fixed;
     z-index: 10;
-    background-color: rgb(238, 74, 74);
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
     
 }
 .navbar .logo {
-    padding-left: 20px;
+    padding-left: 52px;
     position: relative;
     top: 1px;
 }
@@ -74,10 +70,6 @@
     transition: 0.9s;
 }
 
-
-.nav-center ul li a:hover{
-    background-color: rgba(49, 49, 53, 0.253);
-=======
 /* .nav-center ul li a:hover{
     background-color: rgba(117, 117, 121, 0.253);
    
@@ -138,7 +130,6 @@
 
 
 .model-S{
-    text-align: center;
     width: 100%;
     position: relative;
     
@@ -185,19 +176,5 @@
     width: 100%;
     overflow-y: hidden;
 }
-
-.format{
-    padding-top: 5%;
-    padding-bottom: 5%;
-    text-align: center;
-    font-weight: 400;
-    background-color: rgb(138, 175, 207);
-    color:orangered;
-    font-size: larger;
-    border: solid;
-    border-color: orange solid 2px;
-    
-}
-
 
 
